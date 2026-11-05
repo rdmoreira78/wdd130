@@ -15,6 +15,7 @@ body {
 
 nav {
     background-color: darkblue;
+    padding: 0;
 }
 
 nav a {
