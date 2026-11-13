@@ -1,12 +1,12 @@
 :root {
-    --cor-primaria: #055a05;
-    /* verde-floresta*/
-    --cor-secundaria: #f4a261;
-    /* bege médio*/
-    --cor--destaque1: #264653;
-    /* azul-escuro acinzentado*/
-    --cor--destaque2: #e9c46a;
-    /* amarelo claro dourado*/
+    --cor-primaria: #005f73;
+    /* Azul-rio profundo */
+    --cor-secundaria: #0a9396;
+    /* Verde-água / turquesa escuro */
+    --cor-destaque1: #ca6702;
+    /* Âmbar / laranja aventura */
+    --cor-destaque2: #e9d8a6;
+    /* Areia clara para caixas e seções */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--fonte-body);
-    color: var(--cor--destaque1);
+
 }
 
 header,
@@ -65,7 +65,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor--destaque1);
+    background-color: var(--cor-destaque1);
     color: #fff;
     /*texto branco - certifique-se de que haja contraste suficiente com a cor de fundo*/
 }
@@ -77,8 +77,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor--destaque2);
-    color: #fff;
+    background-color: var(--cor-destaque2);
+    color: black;
 }
 
 .hero article img {
