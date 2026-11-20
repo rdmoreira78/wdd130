@@ -162,7 +162,7 @@ footer a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque2);
-    color: black;
+    color: #000;
 }
 
 .hero article img {
