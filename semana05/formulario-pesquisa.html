@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <meta name="description" content="Responda ao formulário de pesquisa.">
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="item formulario">
+            <label for="name">Nome Completo: </label>
+            <input type="text" name="nome-completo" id="nome-completo" required>
+        </div>
+        <div class="item-formulario">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email-do-usuario" id="email-do-usuario" required>
+        </div>
+        <div class="item-formulario 1">
+            <label for="navegador">Qual seu navegador favorito: </label>
+        </div>
+        <select name="navegador" id="navegador">
+            <option value="chrome">Chrome</option>
+            <option value="edge">Edge</option>
+            <option value="opera">Opera</option>
+            <option value="other">outro</option>
+        </select>
+        <label><input type="checkbox" id="pet" name="pet">Você tem um bichinho de estimação em
+            casa?</label>
+        <label for="feedback">Liste os lugares onde você morou:</label>
+        <textarea id="feedback" name="feedback" rows="4"
+          placeholder="Belo Horizonte-MG, São Paulo-SP, Rio de Janeiro-RJ"></textarea>
+        <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
