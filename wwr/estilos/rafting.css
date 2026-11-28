@@ -86,11 +86,11 @@ header nav a {
 .aventura img,
 .contato img {
     width: 100%;
+    object-fit: cover;
 }
 
 .aventura img {
     height: 120px;
-    object-fit: cover;
 }
 
 .contato img {
